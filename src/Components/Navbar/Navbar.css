@@ -7,12 +7,26 @@
 
 .navbar-brand {
   font-size: xx-large;
-  font-weight: 900;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 991px) {
   .basket {
     margin: 10px 0;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    font-size: x-large;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-brand {
+    font-size: large;
+    font-weight: 900;
   }
 }
 

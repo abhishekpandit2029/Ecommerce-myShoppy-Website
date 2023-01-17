@@ -59,7 +59,7 @@ function Navbar() {
                 Sign in
               </button>
             </li>
-          </ul>
+          </ul> 
         </div>
       </nav>
     </div>

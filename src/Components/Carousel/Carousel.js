@@ -1,10 +1,10 @@
 import React from "react";
 import "./Carousel.css";
-import a from "../../Stuff/CarouselImage/a.jpg";
-import b from "../../Stuff/CarouselImage/b.jpg";
-import c from "../../Stuff/CarouselImage/c.jpg";
-import d from "../../Stuff/CarouselImage/d.jpg";
-import e from "../../Stuff/CarouselImage/e.jpg";
+import a from "../Stuff/CarouselImage/a.jpg";
+import b from "../Stuff/CarouselImage/b.jpg";
+import c from "../Stuff/CarouselImage/c.jpg";
+import d from "../Stuff/CarouselImage/d.jpg";
+import e from "../Stuff/CarouselImage/e.jpg";
 
 function Carousel(props) {
   return (
