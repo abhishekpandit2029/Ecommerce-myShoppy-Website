@@ -14,6 +14,11 @@
   .basket {
     margin: 10px 0;
   } 
+
+  .navbar-toggler{
+    padding: 8px 5px;
+    padding-bottom: 3px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -22,6 +27,14 @@
     font-weight: 900;
   }
 }
+
+.navbar-toggler{
+  height: auto;
+  border-color: #fe8235;
+  transform: rotate(270deg);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
 
 .counting {
   color: white;
@@ -43,4 +56,5 @@
 .btn{
   background: black;
   color: white;
+  margin-bottom: 10px;
 }

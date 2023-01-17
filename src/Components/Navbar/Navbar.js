@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import DialpadTwoToneIcon from '@mui/icons-material/DialpadTwoTone';
 
 function Navbar() {
   return (
@@ -12,7 +13,7 @@ function Navbar() {
           .<strong>Shoppy</strong>
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler "
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -20,7 +21,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span><DialpadTwoToneIcon/></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
