@@ -1,0 +1,39 @@
+/* navbar css */
+
+.navbar {
+  min-height: 10vh;
+  background: #fe8235;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 991px) {
+  .basket {
+    margin: 10px 0;
+  }
+}
+
+.counting {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  position: relative;
+  top: -15px;
+  border-radius: 100px;
+  padding: 1px 5px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.card-details-img {
+  max-height: 25px;
+  margin-left: 10px;
+}
+
+.btn{
+  background: black;
+  color: white;
+}
