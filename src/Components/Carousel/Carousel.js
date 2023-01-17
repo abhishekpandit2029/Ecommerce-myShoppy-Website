@@ -6,8 +6,8 @@ import c from "../Stuff/CarouselImage/c.jpg";
 import d from "../Stuff/CarouselImage/d.jpg";
 import e from "../Stuff/CarouselImage/e.jpg";
 
-function Carousel(props) {
-  return (
+function Carousel() {
+  return ( 
     <div>
       <div
         id="carouselExampleControls"
@@ -38,7 +38,7 @@ function Carousel(props) {
           role="button"
           data-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
         <a
           class="carousel-control-next"
@@ -46,7 +46,7 @@ function Carousel(props) {
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
     </div>
