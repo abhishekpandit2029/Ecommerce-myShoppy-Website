@@ -9,7 +9,7 @@ function Footer() {
         <div class="container">
           <center>
             <div class="row">
-              <div class="col-lg-2 col-md-6 col-sm-12">
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
                   About
                 </h6>
@@ -28,7 +28,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-12">
+
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
                   Social
                 </h6>
@@ -47,7 +48,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-12">
+
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
                   Policy
                 </h6>
@@ -66,7 +68,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-12">
+
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
                   Help
                 </h6>
@@ -86,9 +89,19 @@ function Footer() {
                 </ul>
               </div>
 
-              <div class="col-lg-2 col-md-6 col-sm-12">
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
-                  Mail Us
+                    Contact 
+                </h6>
+                <p class="contact-info mt-4">
+                  Contact us if need help withanything
+                </p>
+                <p class="contact-info">+01 123-456-7890</p>
+              </div>
+
+              <div class="col-lg-2 col-md-4 col-sm-6 fCol">
+                <h6 class="footer-heading text-uppercase text-white">
+                  Address
                 </h6>
                 <p class="contact-info mt-4">
                 myShoppy Internet Private Limited,
@@ -98,16 +111,6 @@ function Footer() {
                 Bengaluru, 560103,
                 Karnataka, India
                 </p>
-              </div>
-
-              <div class="col-lg-2 col-md-6 col-sm-12">
-                <h6 class="footer-heading text-uppercase text-white">
-                    Address 
-                </h6>
-                <p class="contact-info mt-4">
-                  Contact us if need help withanything
-                </p>
-                <p class="contact-info">+01 123-456-7890</p>
               </div>
 
             </div>
