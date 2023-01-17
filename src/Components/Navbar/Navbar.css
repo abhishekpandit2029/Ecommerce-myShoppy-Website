@@ -23,13 +23,6 @@
   }
 }
 
-@media screen and (max-width: 575px) {
-  .navbar-brand {
-    font-size: large;
-    font-weight: 900;
-  }
-}
-
 .counting {
   color: white;
   background-color: black;
