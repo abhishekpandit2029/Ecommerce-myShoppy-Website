@@ -7,7 +7,6 @@ function Footer() {
     <div>
       <footer class="section bg-footer">
         <div class="container">
-          <center>
             <div class="row">
               <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
@@ -104,17 +103,15 @@ function Footer() {
                   Address
                 </h6>
                 <p class="contact-info mt-4">
-                myShoppy Internet Private Limited,
-                Buildings Alyssa, Begonia &
-                Clove Embassy Tech Village,
-                Outer Ring Road, Devarabeesanahalli Village,
+                myShoppy Private Limited,
+                Buildings Alyssa,
+                Outer Ring Road,
                 Bengaluru, 560103,
                 Karnataka, India
                 </p>
               </div>
-
             </div>
-          </center>
+            
         </div>
 
         <div class="text-center mt-5">
