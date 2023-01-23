@@ -1,0 +1,10 @@
+.sfc{
+    padding-top: 50px;
+    background: black;
+} 
+
+.navSelection{
+    display: flex;
+    flex: row;
+    justify-content: center;
+}

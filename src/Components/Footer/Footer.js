@@ -80,7 +80,7 @@ function Footer() {
                     <a href="">Shipping</a>
                   </li>
                   <li>
-                    <a href="">Cancellation & Return</a>
+                    <a href="">Cancel & Return</a>
                   </li>
                   <li>
                     <a href="">FAQ</a>
@@ -93,7 +93,7 @@ function Footer() {
                     Contact 
                 </h6>
                 <p class="contact-info mt-4">
-                  Contact us if need help withanything
+                  Contact us if need<br/> help withanything
                 </p>
                 <p class="contact-info">+01 123-456-7890</p>
               </div>
@@ -104,10 +104,10 @@ function Footer() {
                 </h6>
                 <p class="contact-info mt-4">
                 myShoppy Private Limited,
-                Buildings Alyssa,
-                Outer Ring Road,
+                Buildings <br/>Alyssa,
+                Outer Ring<br/> Road,
                 Bengaluru, 560103,
-                Karnataka, India
+                Karnataka,<br/> India
                 </p>
               </div>
             </div>

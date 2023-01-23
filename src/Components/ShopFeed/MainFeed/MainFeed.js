@@ -1,10 +1,12 @@
 import React from 'react'
-import Mfeed from '../mSection/Mfeed'
+import SFC from '../MenField/ShopFeedContainer/SFC'
+
+
 
 function MainFeed() {
   return (
     <div>
-        <Mfeed/>
+        <SFC/>
     </div>
   )
 }
