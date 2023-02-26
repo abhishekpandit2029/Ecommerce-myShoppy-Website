@@ -1,6 +1,6 @@
 .sfc{
-    padding-top: 50px;
-    height: 600px;
+    padding-top: 40px;
+    height: 550px;
     background: black;
     /* border: 1px solid turquoise; */
 } 
@@ -10,3 +10,10 @@
     flex: row;
     justify-content: center; 
 }
+
+@media screen and (max-width: 400px) {
+    .sfc{
+        padding-top: 40px;
+        height: 490px;
+    } 
+  }
