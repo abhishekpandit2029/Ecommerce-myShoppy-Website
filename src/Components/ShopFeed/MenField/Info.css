@@ -1,0 +1,53 @@
+.card {
+  width: 200px;
+  margin: 0px 20px;
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.card img {
+  width: 100%;
+}
+
+.price {
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  margin-top: 15px;
+  color: black;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 9px 7px;
+  font-weight: 500;
+  color: black;
+  width: 100%;
+  background-color: #fe8235;
+  border-radius: 10px 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    width: 200px;
+    margin: 0px 20px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+}

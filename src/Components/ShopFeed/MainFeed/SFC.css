@@ -1,10 +1,12 @@
 .sfc{
     padding-top: 50px;
+    height: 600px;
     background: black;
+    /* border: 1px solid turquoise; */
 } 
 
 .navSelection{
     display: flex;
     flex: row;
-    justify-content: center;
+    justify-content: center; 
 }

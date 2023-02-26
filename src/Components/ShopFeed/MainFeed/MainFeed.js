@@ -1,5 +1,5 @@
 import React from 'react'
-import SFC from '../MenField/ShopFeedContainer/SFC'
+import SFC from './SFC'
 
 
 

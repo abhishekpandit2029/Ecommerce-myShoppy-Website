@@ -4,13 +4,14 @@ import "./Info.css";
 function Info(props) {
   return (
     <>
-      <div class="card">
+      <div className="card">
         <img src={props.itemSrc} alt="Denim Jeans"></img>
-        <h5>{props.itemName}</h5>
-        <p class="price">${props.itemPrice}</p>
-         <p><button>Add to Cart</button></p> 
+        <h6>{props.itemName}</h6>
+        <p className="price">${props.itemPrice}</p>
+        <p><button>Add to Cart</button></p> 
       </div>
     </>
   );
 }
 export default Info;
+   

@@ -1,5 +1,5 @@
 import React from 'react'
-import Mfeed from "../mSection/Mfeed";
+import Mfeed from "../MenField/Mfeed";
 import "./SFC.css"
 
 

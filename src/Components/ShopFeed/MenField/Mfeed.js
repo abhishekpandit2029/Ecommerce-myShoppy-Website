@@ -1,15 +1,13 @@
 import React from "react";
-import Watermark from "../../Watermark/Watermark";
 import "./Mfeed.css";
 
-import Users from "./Users";
+import Users from "../MenField/Users"
 import Info from "./Info";
 import Marquee from "react-fast-marquee";
 
 function Mfeed() {
   return (
     <div className="mfeed">
-      <Watermark name="Girl's" />
       <div className="shopSection">
         <Marquee
           direction="left"
