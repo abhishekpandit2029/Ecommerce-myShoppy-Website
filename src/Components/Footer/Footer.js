@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import CopyrightIcon from '@mui/icons-material/Copyright';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Footer() {
   return (
@@ -30,20 +35,20 @@ function Footer() {
 
               <div class="col-lg-2 col-md-4 col-sm-6 fCol">
                 <h6 class="footer-heading text-uppercase text-white">
-                  Social
+                  Shop by
                 </h6>
                 <ul class="list-unstyled footer-link mt-4">
                   <li>
-                    <a href="">Facebook</a>
+                    <a href="">Men</a>
                   </li>
                   <li>
-                    <a href="">Twitter</a>
+                    <a href="">Womwn</a>
                   </li>
                   <li>
-                    <a href="">Instagram</a>
+                    <a href="">Indie</a>
                   </li>
                   <li>
-                    <a href="">YouTube</a>
+                    <a href="">New Arrival</a>
                   </li>
                 </ul>
               </div>
@@ -96,6 +101,12 @@ function Footer() {
                   Contact us if need<br/> help withanything
                 </p>
                 <p class="contact-info">+01 123-456-7890</p>
+                <p >
+                    <FacebookIcon className="contact-info-icon"/>
+                    <TwitterIcon className="contact-info-icon"/>
+                    <InstagramIcon className="contact-info-icon"/>
+                    <YouTubeIcon className="contact-info-icon"/>
+                </p>
               </div>
 
               <div class="col-lg-2 col-md-4 col-sm-6 fCol">

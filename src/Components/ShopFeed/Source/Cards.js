@@ -1,17 +1,17 @@
 import React from "react";
-import "./Info.css";
+import "./Cards.css";
 
-function Info(props) {
+function Cards(props) {
   return (
     <>
       <div className="card">
         <img src={props.itemSrc} alt="Denim Jeans"></img>
         <h6>{props.itemName}</h6>
-        <p className="price">${props.itemPrice}</p>
+        <p className="price">₹ {props.itemPrice}</p>
         <p><button>Add to Cart</button></p> 
       </div>
     </>
   );
 }
-export default Info;
-   
+export default Cards;
+     

@@ -1,12 +1,11 @@
 .card {
   width: 200px;
+  height: 250px;
   margin: 0px 20px;
-  text-align: center;
   font-family: arial;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* border: 2px solid red; */
+  justify-content: left;
 }
 
 .card img {
@@ -14,25 +13,24 @@
 }
 
 .price {
-  color: grey;
+  color: white;
   font-size: 15px;
   margin-bottom: 10px;
-}
+} 
 
 h6 {
   margin-top: 15px;
-  color: black;
+  color: white;
 }
 
 .card button {
   border: none;
   outline: 0;
-  padding: 9px 7px;
+  padding: 5px 0px;
   font-weight: 500;
   color: black;
-  width: 100%;
+  width: 50%;
   background-color: #fe8235;
-  border-radius: 10px 5px;
   text-align: center;
   cursor: pointer;
   font-size: 15px;
@@ -42,5 +40,8 @@ h6 {
 @media screen and (max-width: 400px) {
   .card {
     width: 160px;
+    height: 200px;
   }
 }
+
+ 
