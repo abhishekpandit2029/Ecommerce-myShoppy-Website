@@ -2,21 +2,21 @@ const FestiveForBoys = [
   {
     id: 1, 
     itemSrc:
-      "https://assets.ajio.com/medias/sys_master/root/20230111/d2Ni/63be9f9eaeb269c651d82f99/-473Wx593H-465591418-cream-MODEL.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20220629/RHH3/62bc63eeaeb26921af50fa3d/-473Wx593H-441146295-ltblue-MODEL.jpg",
     itemName: "Chikankari Kurta Set",
     itemPrice: "1200",
   },
   {
     id: 2,
     itemSrc:
-      "https://assets.ajio.com/medias/sys_master/root/20221220/N9Ba/63a0da00f997ddfdbde13162/-473Wx593H-465461612-black-MODEL5.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20220421/BfuL/626072ceaeb26921af327ff2/-473Wx593H-464207586-yellow-MODEL.jpg",
     itemName: "Kurta Asymmetrical Cut",
     itemPrice: "899",
   },
   {
     id: 3,
     itemSrc:
-      "https://assets.ajio.com/medias/sys_master/root/20221219/I5hA/63a0a7eef997ddfdbddeff7c/-473Wx593H-465455016-yellow-MODEL.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20210404/AhG5/606a5533f997dd7b6482eb5c/-473Wx593H-461328553-yellow-MODEL.jpg",
     itemName: "Striped Long Kurta",
     itemPrice: "699",
   },
@@ -30,7 +30,7 @@ const FestiveForBoys = [
   {
     id: 5,
     itemSrc:
-      "https://assets.ajio.com/medias/sys_master/root/20220819/vx6f/62fe96fcf997dd394c037043/-473Wx593H-461394565-green-MODEL4.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20220606/RPo2/629e15ecf997dd03e26606e9/-473Wx593H-441166039-navy-MODEL.jpg",
     itemName: "Full Sleeves Short Kurta",
     itemPrice: "999",
   },

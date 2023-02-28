@@ -1,11 +1,12 @@
 .card {
   width: 200px;
   height: 250px;
-  margin: 0px 20px;
+  margin: 0px 27px 0px 0px;
   font-family: arial;
   display: flex;
   flex-direction: column;
   justify-content: left;
+  /* border: 2px solid red; */ 
 }
 
 .card img {
@@ -23,18 +24,23 @@ h6 {
   color: white;
 }
 
-.card button {
+.card .button {
   border: none;
   outline: 0;
-  padding: 5px 0px;
+  padding: 5px 10px;
   font-weight: 500;
   color: black;
-  width: 50%;
-  background-color: #fe8235;
+  background-color: whitesmoke;
   text-align: center;
   cursor: pointer;
   font-size: 15px;
   font-family: "Maven Pro", sans-serif;
+}
+
+.card .button:hover {
+  color: white;
+  background-color: #fe8235;
+
 }
 
 @media screen and (max-width: 400px) {

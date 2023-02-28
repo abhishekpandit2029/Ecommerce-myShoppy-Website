@@ -1,19 +1,28 @@
-.sfc{
+.GirlsPanel{
     padding-top: 40px;
-    height: 550px;
-    background: black;
-    /* border: 1px solid turquoise; */
+    /* height: 530px; */
+    background: black; 
+    /* border: 2px solid yellow; */
 } 
 
-.navSelection{
+.GirlsnavSelection{
     display: flex;
     flex: row;
     justify-content: center; 
 }
 
-@media screen and (max-width: 400px) {
-    .sfc{
+.btn{
+    border: none;
+    font-size:large;
+} 
+.btn:hover{
+    color: #fe8235; 
+    background: black;
+}
+
+@media screen and (max-width: 575px) {
+    .GirlsPanel{
         padding-top: 40px;
-        height: 490px;
+        height: 500px;
     } 
-  }
+  } 

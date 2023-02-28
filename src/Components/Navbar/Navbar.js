@@ -53,7 +53,7 @@ function Navbar() {
               />
               <sup id="counting" class="counting">
                 0
-              </sup>
+              </sup> 
             </li>
             <li class="nav-item">
               <button type="button" class="btn">

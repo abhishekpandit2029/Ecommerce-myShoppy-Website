@@ -3,7 +3,7 @@
 
 
 .navbar {
-  min-height: 10vh;
+  min-height: 80px;
   background: #fe8235;
   font-family: 'Maven Pro', sans-serif;
   font-weight: 600;
@@ -14,7 +14,7 @@
   font-weight: bolder;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) { 
   .basket {
     margin: 10px 0;
   } 
@@ -29,6 +29,12 @@
   .navbar-brand {
     font-size: x-large;
     font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar {
+    min-height: 40px;
   }
 }
 

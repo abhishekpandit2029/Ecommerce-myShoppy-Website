@@ -8,10 +8,10 @@ function Cards(props) {
         <img src={props.itemSrc} alt="Denim Jeans"></img>
         <h6>{props.itemName}</h6>
         <p className="price">₹ {props.itemPrice}</p>
-        <p><button>Add to Cart</button></p> 
+        <p><button class="btn btn-secondary button">Add to Cart</button></p> 
       </div>
     </>
-  );
+  ); 
 }
 export default Cards;
      
