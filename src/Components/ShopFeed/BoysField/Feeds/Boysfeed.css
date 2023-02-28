@@ -10,5 +10,6 @@
 @media screen and (max-width: 400px) {
     .Boysfeed{
         max-height: 400px;
+        padding: 25px 49px 0px 30px;
     }
   } 

@@ -2,6 +2,8 @@ import React from "react";
 import BoysFestivefeed from "../Feeds/BoysFestivefeed";
 import BoysWesternfeed from "../Feeds/BoysWesternfeed";
 import "./BoysPanel.css";
+import { Link } from "react-router-dom";
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 function BoysPanel() {
   return (
@@ -12,7 +14,7 @@ function BoysPanel() {
             display: "flex",
             alignItems: "center",
             flexDirection: "row",
-            marginLeft: "50px",
+            marginLeft: "40px",
             marginBottom: "30px"
           }}
         >
@@ -76,6 +78,11 @@ function BoysPanel() {
         <div class="text-white tab-pane" id="pills-Festive">
           {<BoysFestivefeed />}
         </div>
+      </div>
+      <div className="boysnavigator">
+      <Link to="/boysshop" style={{color:"#fe8235"}}>
+        <ArrowCircleRightIcon fontSize="large"/>
+        </Link>
       </div>
     </div>
   );

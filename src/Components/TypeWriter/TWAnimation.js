@@ -12,8 +12,8 @@ const TWAnimation = () => {
             words={["Real","New","You"]}
             cursor
             cursorStyle="_"
-            typeSpeed={70}
-            deleteSpeed={50}
+            typeSpeed={150}
+            deleteSpeed={150}
             delaySpeed={1000}
             loop={false}
           />
@@ -26,8 +26,8 @@ const TWAnimation = () => {
             words={["Pretty", "Sharp"]}
             cursor
             cursorStyle="_"
-            typeSpeed={70}
-            deleteSpeed={50}
+            typeSpeed={150}
+            deleteSpeed={150}
             delaySpeed={1000}
             loop={false}
           />
@@ -40,8 +40,8 @@ const TWAnimation = () => {
             words={["Well", "Smart"]}
             cursor
             cursorStyle="_"
-            typeSpeed={70}
-            deleteSpeed={50}
+            typeSpeed={150}
+            deleteSpeed={150}
             delaySpeed={1000}
             loop={false}
           />

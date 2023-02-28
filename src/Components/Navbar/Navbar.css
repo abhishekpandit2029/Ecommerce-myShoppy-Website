@@ -10,8 +10,10 @@
 }
  
 .navbar-brand {
-  font-size: xx-large;
+  font-size: xx-large; 
   font-weight: bolder;
+  cursor: pointer;
+  margin-top: -25px;
 }
 
 @media screen and (max-width: 991px) { 

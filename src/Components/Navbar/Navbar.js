@@ -1,17 +1,22 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import DialpadTwoToneIcon from '@mui/icons-material/DialpadTwoTone';
 
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light py-2 px-5">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-0 px-5">
+      
+        <a class="navbar-brand">
+        <Link to="/home" style={{color:"black", textDecoration:"none"}}>
           <small>
             <strong>My</strong>
           </small>
           .<strong>Shoppy</strong>
+          </Link>
         </a>
+        
         <button
           class="navbar-toggler "
           type="button"

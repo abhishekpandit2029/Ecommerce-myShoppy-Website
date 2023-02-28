@@ -3,6 +3,8 @@ import GirlsFusionfeed from "../Feeds/GirlsFusionfeed";
 import GirlsEthnicfeed from "../Feeds/GirlsEthnicfeed";
 import GirlsWesternfeed from "../Feeds/GirlsWesternfeed";
 import "./GirlsPanel.css";
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import { Link } from "react-router-dom";
 
 function GirlsPanel() {
   return (
@@ -14,7 +16,7 @@ function GirlsPanel() {
             data-toggle="pill"
             href="#pills-home"
           >
-            <b>Fusion</b>
+            <b className="navHeading">Fusion</b>
           </div>
         </li>
         <li class="nav-item">
@@ -23,7 +25,7 @@ function GirlsPanel() {
             data-toggle="pill"
             href="#pills-profile"
           >
-            <b>Ethnic</b>
+            <b className="navHeading">Ethnic</b>
           </div>
         </li>
         <li class="nav-item">
@@ -32,7 +34,7 @@ function GirlsPanel() {
             data-toggle="pill"
             href="#pills-contact"
           >
-            <b>Western</b> 
+            <b className="navHeading">Western</b> 
           </div>
         </li>
       </ul>
@@ -53,7 +55,7 @@ function GirlsPanel() {
             display: "flex",
             alignItems: "center",
             flexDirection: "row",
-            marginLeft: "50px",
+            marginLeft: "40px",
           }}
         >
           <hr
@@ -87,7 +89,12 @@ function GirlsPanel() {
               borderRadius: "100px",
             }}
           />
-        </p>
+        </p> 
+      </div>
+      <div className="navigator">
+      <Link to="/girlsshop" style={{color:"#fe8235"}}>
+        <ArrowCircleRightIcon fontSize="large"/>
+        </Link>
       </div>
     </div>
   );

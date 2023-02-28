@@ -3,13 +3,14 @@
     background: black;
     position: relative;
     font-family: 'Maven Pro', sans-serif;
-    padding: 25px 49px 0px 45px;
-    /* bottom: 150px solid red; */
+    padding: 25px 59px 0px 45px;
+    /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 400px) {
     .Girlsfeed{
         max-height: 400px;
+        padding: 25px 49px 0px 30px;
     }
   }
-  
+    
