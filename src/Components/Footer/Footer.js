@@ -41,7 +41,7 @@ function Footer() {
                     <a href="">Men</a>
                   </li>
                   <li>
-                    <a href="">Womwn</a>
+                    <a href="">Women</a>
                   </li>
                   <li>
                     <a href="">Indie</a>

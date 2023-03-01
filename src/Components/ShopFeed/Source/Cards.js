@@ -3,7 +3,7 @@ import "./Cards.css";
 
 function Cards(props) {
   return (
-    <>
+    <> 
       <div className="card">
         <img src={props.itemSrc} alt="Denim Jeans"></img>
         <h6>{props.itemName}</h6>
@@ -13,5 +13,5 @@ function Cards(props) {
     </>
   ); 
 }
-export default Cards;
-     
+export default Cards; 
+      

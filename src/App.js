@@ -5,6 +5,7 @@ import Girlsshoppy from "./Components/Shoppy/GirlsShop/Girlsshoppy"
 import Boysshoppy from "./Components/Shoppy/BoysShop/Boysshoppy"
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/boysshop"  element={<Boysshoppy />} />
           <Route path="/girlsshop"  element={<Girlsshoppy />} />
         </Routes>
+        <Footer />
       </Router>
 
 

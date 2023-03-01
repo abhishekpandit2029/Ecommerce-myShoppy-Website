@@ -41,22 +41,19 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">
-                Men
+              <Link to="/boysshop" style={{color:"black", textDecoration:"none"}}>
+                Men</Link>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">
-                Women
+              <Link to="/girlsshop" style={{color:"black", textDecoration:"none"}}>
+                Women</Link>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">
                 About us
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
-                Features
               </a>
             </li>
             {/* <li class="nav-item basket">
@@ -69,7 +66,12 @@ function Navbar() {
               </sup> 
             </li> */}
             <li class="nav-item">
-              <button type="button" class="btn navbtn">
+              <button type="button" className="btn navbtn mr-2">
+                Register
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" className="btn navbtn">
                 Sign in
               </button>
             </li>
