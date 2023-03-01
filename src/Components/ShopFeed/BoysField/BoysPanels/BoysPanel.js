@@ -72,7 +72,7 @@ function BoysPanel() {
         </li>
         <li className="bNavigator">
         <Link to="/boysshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="medium" onClick="location.reload()"/>
+        <ArrowCircleRightIcon fontSize="medium"/>
         </Link>
         </li>
       </ul>
