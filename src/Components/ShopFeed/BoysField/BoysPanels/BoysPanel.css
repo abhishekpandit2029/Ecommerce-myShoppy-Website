@@ -43,9 +43,14 @@
 
   .btn{
     border: none;
-    font-size:large;
+    font-size:large; 
+    background: black;
 }
 .btn:hover{
     color: #fe8235;
     background: black;
+}
+
+.bNavigator{
+  margin-top: 11px;
 }

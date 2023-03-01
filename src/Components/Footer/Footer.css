@@ -2,9 +2,9 @@
 
 .bg-footer {
   background-color: #000;
-  padding: 0px 25px 0px;
+  padding: 20px 25px 0px;
   /* border: 1px solid red; */
-  font-family: "Maven Pro", sans-serif;;
+  font-family: "Maven Pro", sans-serif;
 } 
 
 .container{
@@ -54,7 +54,8 @@
 
 .contact-info-icon{
   color: white;
-  margin-right: 6px;
+  margin-right: 6px; 
+  cursor: pointer;
 }
 
 .contact-info-icon:hover{

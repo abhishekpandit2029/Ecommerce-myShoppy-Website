@@ -70,9 +70,9 @@ function BoysPanel() {
             <b className="navHeading">Festive</b>
           </div>
         </li>
-        <li class="nav-item  mt-2">
+        <li className="bNavigator">
         <Link to="/boysshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="medium"/>
+        <ArrowCircleRightIcon fontSize="medium" onClick="window.location.reload()"/>
         </Link>
         </li>
       </ul>
@@ -81,7 +81,7 @@ function BoysPanel() {
           {<BoysWesternfeed />}
         </div>
         <div class="text-white tab-pane" id="pills-Festive">
-          {<BoysFestivefeed />}
+          {<BoysFestivefeed />} 
         </div>
       </div>
 

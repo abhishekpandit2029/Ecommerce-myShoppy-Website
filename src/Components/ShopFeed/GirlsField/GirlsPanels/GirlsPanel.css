@@ -9,8 +9,11 @@
     display: flex;
     flex: row;
     justify-content: center; 
-} 
+}
 
+.Navigator{
+    margin-top: 10px;
+}
 
 
 .btn{
@@ -31,5 +34,4 @@
         font-size: medium;
     }
   }     
-
 

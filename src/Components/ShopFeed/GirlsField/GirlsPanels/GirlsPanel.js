@@ -37,9 +37,9 @@ function GirlsPanel() {
             <b className="navHeading">Western</b> 
           </div>
         </li>
-        <li class="nav-item mt-2">
+        <li className="Navigator">
       <Link to="/girlsshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="medium"/>
+        <ArrowCircleRightIcon fontSize="medium" onClick="window.location.reload()"/>
         </Link>
       </li>
       </ul>

@@ -100,7 +100,7 @@ function Footer() {
                   Contact us if need<br/> help withanything
                 </p>
                 <p class="contact-info">+01 123-456-7890</p>
-                <p >
+                <p> 
                     <FacebookIcon className="contact-info-icon"/>
                     <TwitterIcon className="contact-info-icon"/>
                     <InstagramIcon className="contact-info-icon"/>
