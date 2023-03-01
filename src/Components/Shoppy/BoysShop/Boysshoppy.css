@@ -1,22 +1,22 @@
-.Girlsshoppy{
+.Boysshoppy{
     padding-top: 40px;
     background: black; 
 } 
 
-.GirlsShoppySelection{
+.BoysshoppySelection{
     display: flex;
     flex: row;
     justify-content: center; 
 }
 
-.ffgShoppy{
+.bShoppy{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 50px 0 0 40px;
 }
-
+ 
 .shoppyCards{
     margin: 0px 8px 150px 0px;
 }
@@ -29,3 +29,9 @@
     color: #fe8235; 
     background: black;
 }
+
+@media screen and (max-width: 575px) {
+    .navHeading{
+        font-size: medium;
+    }
+  }   

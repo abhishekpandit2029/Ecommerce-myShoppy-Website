@@ -8,17 +8,16 @@
   font-family: 'Maven Pro', sans-serif;
   font-weight: 600;
 }
- 
+  
 .navbar-brand {
   font-size: xx-large; 
   font-weight: bolder;
   cursor: pointer;
-  margin-top: -25px;
 }
 
 @media screen and (max-width: 991px) { 
   .basket {
-    margin: 10px 0;
+    margin: 10px 0; 
   } 
 
   .navbar-toggler{
@@ -69,4 +68,23 @@
   background: black;
   color: white;
   margin-bottom: 10px;
+}
+
+.navbtn {
+  border: none;
+  outline: 0;
+  padding: 5px 10px;
+  font-weight: 500;
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.navbtn:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.8s ease-in;
 }

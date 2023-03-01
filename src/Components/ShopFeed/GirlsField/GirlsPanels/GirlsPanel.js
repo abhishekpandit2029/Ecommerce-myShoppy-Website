@@ -12,7 +12,7 @@ function GirlsPanel() {
       <ul class="nav nav-pills GirlsnavSelection">
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 mx-2 active"
+            class="nav-link btn btn-dark mx-md-4 active"
             data-toggle="pill"
             href="#pills-home"
           >
@@ -21,7 +21,7 @@ function GirlsPanel() {
         </li>
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 mx-2"
+            class="nav-link btn btn-dark mx-md-4"
             data-toggle="pill"
             href="#pills-profile"
           >
@@ -30,13 +30,18 @@ function GirlsPanel() {
         </li>
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 mx-2"
+            class="nav-link btn btn-dark mx-md-4"
             data-toggle="pill"
             href="#pills-contact"
           >
             <b className="navHeading">Western</b> 
           </div>
         </li>
+        <li class="nav-item mt-2">
+      <Link to="/girlsshop" style={{color:"#fe8235"}}>
+        <ArrowCircleRightIcon fontSize="medium"/>
+        </Link>
+      </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <div class="text-white tab-pane show active" id="pills-home">
@@ -90,11 +95,6 @@ function GirlsPanel() {
             }}
           />
         </p> 
-      </div>
-      <div className="navigator">
-      <Link to="/girlsshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="large"/>
-        </Link>
       </div>
     </div>
   );

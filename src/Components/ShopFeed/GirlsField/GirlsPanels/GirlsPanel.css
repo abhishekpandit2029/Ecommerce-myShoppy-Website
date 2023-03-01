@@ -9,7 +9,7 @@
     display: flex;
     flex: row;
     justify-content: center; 
-}
+} 
 
 
 
@@ -22,18 +22,6 @@
     background: black;
 } 
 
-.navigator{
-    color: #fe8235;
-    position: relative;
-    float: right;
-    bottom: 370px;
-    right: 10px;
-}
-
-.navigator:hover{
-    color: white;
-}
-
 @media screen and (max-width: 575px) {
     .GirlsPanel{
         padding-top: 40px;
@@ -44,10 +32,4 @@
     }
   }     
 
-@media screen and (max-width: 400px) {
-    .navigator{
-        right: 6px;
-        bottom: 350px;
-    }
-  } 
 

@@ -9,7 +9,7 @@
     justify-content: center; 
 }
 
-.ffgShoppy{
+.gShoppy{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,3 +29,10 @@
     color: #fe8235; 
     background: black;
 }
+
+
+@media screen and (max-width: 575px) {
+    .navHeading{
+        font-size: medium;
+    }
+  }   

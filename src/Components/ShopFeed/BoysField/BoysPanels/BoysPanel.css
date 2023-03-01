@@ -17,6 +17,9 @@
     .BoysPanel{
         padding-top: 20px;
     } 
+    .navHeading{
+      font-size: medium;
+  }
   }  
 /* 
   @media screen and (min-width: 1400px) {
@@ -46,22 +49,3 @@
     color: #fe8235;
     background: black;
 }
-
-.boysnavigator{
-  color: #fe8235;
-  position: relative;
-  float: right;
-  bottom: 310px;
-  right: 10px;
-}
-
-.boysnavigator:hover{
-  color: white;
-}
-
-
-@media screen and (max-width: 400px) {
-  .boysnavigator{
-      right: 6px;
-  }
-} 

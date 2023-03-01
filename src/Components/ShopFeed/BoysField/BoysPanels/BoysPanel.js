@@ -54,21 +54,26 @@ function BoysPanel() {
       <ul class="nav nav-pills BoysnavSelection">
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 mx-2 active"
+            class="nav-link btn btn-dark mx-md-4 active"
             data-toggle="pill"
             href="#pills-Western"
           >
-            <b>Western</b>
+            <b className="navHeading">Western</b>
           </div>
         </li>
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 mx-2"
+            class="nav-link btn btn-dark mx-md-4"
             data-toggle="pill"
             href="#pills-Festive"
           >
-            <b>Festive</b>
+            <b className="navHeading">Festive</b>
           </div>
+        </li>
+        <li class="nav-item  mt-2">
+        <Link to="/boysshop" style={{color:"#fe8235"}}>
+        <ArrowCircleRightIcon fontSize="medium"/>
+        </Link>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
@@ -79,11 +84,7 @@ function BoysPanel() {
           {<BoysFestivefeed />}
         </div>
       </div>
-      <div className="boysnavigator">
-      <Link to="/boysshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="large"/>
-        </Link>
-      </div>
+
     </div>
   );
 }

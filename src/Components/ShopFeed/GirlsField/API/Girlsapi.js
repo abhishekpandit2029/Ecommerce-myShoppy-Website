@@ -139,6 +139,34 @@ const FusionForGirls = [
     itemName: "Floral Empire Dress",
     itemPrice: "1299",
   },
+  {
+    id: 21,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20210923/KKGH/614baac8aeb269a268a08427/-473Wx593H-463008614-navy-MODEL2.jpg",
+    itemName: "High-Low Kurti",
+    itemPrice: "2000",
+  },
+  {
+    id: 22,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20210826/v9st/6127ad627cdb8cb824080294/-473Wx593H-441093608-ecru-MODEL.jpg",
+    itemName: "Flared Kurti",
+    itemPrice: "1233",
+  },
+  {
+    id: 23,  
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20220520/bIk9/62878221f997dd03e2fbe3f6/-473Wx593H-464361415-pink-MODEL.jpg",
+    itemName: "Banarasi with Zari Border",
+    itemPrice: "1299",
+  },
+  {
+    id: 24,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20221229/OIRT/63acb0c4aeb269659c14a4e7/-473Wx593H-465518227-red-MODEL2.jpg",
+    itemName: "Floral-fit Kurta",
+    itemPrice: "999",
+  },
 ];
 
 const EthnicForGirls = [
@@ -281,6 +309,34 @@ const EthnicForGirls = [
       "https://assets.ajio.com/medias/sys_master/root/20230119/XwGZ/63c88318aeb269c651eb2afe/-473Wx593H-465625844-wine-MODEL.jpg",
     itemName: "Silk Saree ",
     itemPrice: "1129",
+  },
+  {
+    id: 21, 
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20230207/T0N1/63e14888f997dd708e3cf8e6/-473Wx593H-465687642-maroon-MODEL.jpg",
+    itemName: "Banarasi Silk Saree",
+    itemPrice: "999",
+  },
+  {
+    id: 22,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20210923/KKGH/614baac8aeb269a268a08427/-473Wx593H-463008614-navy-MODEL2.jpg",
+    itemName: "High-Low Kurti",
+    itemPrice: "2000",
+  },
+  {
+    id: 23,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20210826/v9st/6127ad627cdb8cb824080294/-473Wx593H-441093608-ecru-MODEL.jpg",
+    itemName: "Flared Kurti",
+    itemPrice: "1233",
+  },
+  {
+    id: 24,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20220117/z8wH/61e5648ef997dd66232568cb/-473Wx593H-463670640-black-MODEL.jpg",
+    itemName: "Embellished A-line Kurta",
+    itemPrice: "999",
   },
 
 ];
@@ -425,6 +481,34 @@ const WesternForGirls = [
       "https://assets.ajio.com/medias/sys_master/root/20221201/do5k/6388c27eaeb269659cc76705/-473Wx593H-441297211-royal-MODEL.jpg",
     itemName: "Button-Down Dress",
     itemPrice: "1599",
+  },
+  {
+    id: 11,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20221012/rDPr/6347002cf997ddfdbd24c454/-473Wx593H-465145850-black-MODEL.jpg",
+    itemName: "V-Neck Wrap Dress",
+    itemPrice: "899",
+  },
+  {
+    id: 22,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20220316/RnZA/62310bf7aeb26921afdc30df/-473Wx593H-464017556-grey-MODEL.jpg",
+    itemName: "Floral Fit-Flare Dress",
+    itemPrice: "999",
+  },
+  {
+    id: 23,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20230201/GiRv/63da8047f997dd708e32d690/-473Wx593H-465689143-navy-MODEL.jpg",
+    itemName: " Neck Bodycon Dress",
+    itemPrice: "599",
+  },
+  {
+    id: 24,
+    itemSrc:
+      "https://assets.ajio.com/medias/sys_master/root/20220107/P62h/61d75406aeb2695cdd07d177/-473Wx593H-463614283-beige-MODEL.jpg",
+    itemName: "Fit & Flare Dress",
+    itemPrice: "1233",
   },
 ];
 

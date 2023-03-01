@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cards.css";
 
 function Cards(props) {
@@ -9,7 +9,7 @@ function Cards(props) {
         <h6>{props.itemName}</h6>
         <p className="price">₹ {props.itemPrice}</p>
         <p><button class="btn btn-secondary button">Add to Cart</button></p> 
-      </div>
+      </div> 
     </>
   ); 
 }

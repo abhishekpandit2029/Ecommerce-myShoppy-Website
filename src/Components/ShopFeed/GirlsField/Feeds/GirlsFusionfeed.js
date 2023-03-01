@@ -6,7 +6,7 @@ import HorizontalScroll from "react-scroll-horizontal";
 
 function GirlsFusionfeed() {
   const child = { width: `100%`, height: `90%` };
-  return (
+  return ( 
     <div className="Girlsfeed">
       <HorizontalScroll reverseScroll={true} animValues={50} style={child}>
         {FusionForGirls.map((e) => {

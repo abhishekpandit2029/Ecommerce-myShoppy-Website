@@ -2,10 +2,9 @@ import React from "react";
 import "./Footer.css";
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import TwitterIcon from '@mui/icons-material/Twitter'; 
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Footer() {
   return (
@@ -114,11 +113,10 @@ function Footer() {
                   Address
                 </h6>
                 <p class="contact-info mt-4">
-                myShoppy Private Limited,
+                myShoppy Pvt. <br/>Lmt.
                 Buildings <br/>Alyssa,
-                Outer Ring<br/> Road,
-                Bengaluru, 560103,
-                Karnataka,<br/> India
+                Outer Ring<br/> Road
+                pune MH,<br/> India
                 </p>
               </div>
             </div>
@@ -126,7 +124,7 @@ function Footer() {
         </div>
 
         <div class="text-center mt-5">
-          <p class="footer-alt mb-0 f-14">
+          <p class="footer-alt mb-3 f-14">
             Copyright <CopyrightIcon className="copyright"/> 2023, Abhishek Pandit, All Rights Reserved
           </p>
         </div>

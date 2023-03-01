@@ -1,14 +1,14 @@
 .card {
   width: 200px;
   height: 250px;
-  margin: 0px 27px 0px 0px;
+  margin: 0px 25px 0px 0px;
   font-family: arial;
   display: flex;
   flex-direction: column;
   justify-content: left;
   /* border: 2px solid red; */ 
 }
-
+ 
 .card img {
   width: 100%;
 }
@@ -46,7 +46,7 @@ h6 {
 @media screen and (max-width: 400px) {
   .card {
     width: 165px;
-    height: 200px;
+    height: 206px;
   }
 }
 
