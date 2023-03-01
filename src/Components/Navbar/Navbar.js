@@ -10,7 +10,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light py-2 px-5">
       
         <a class="navbar-brand">
-        <Link to="/home" style={{color:"black", textDecoration:"none"}} onClick="window.location.reload()">
+        <Link to="/home" style={{color:"black", textDecoration:"none"}} onClick="location.reload()">
           <small>
             <strong>My</strong>
           </small>
@@ -34,20 +34,20 @@ function Navbar() {
           <ul class="navbar-nav ml-auto mt-3">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-              <Link to="/home" style={{color:"black", textDecoration:"none"}} onClick="window.location.reload()">
+              <Link to="/home" style={{color:"black", textDecoration:"none"}} onClick="location.reload()">
                 Home <span class="sr-only">(current)</span>
                 </Link>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">
-              <Link to="/boysshop" style={{color:"black", textDecoration:"none"}} onClick="window.location.reload()">
+              <Link to="/boysshop" style={{color:"black", textDecoration:"none"}} onClick="location.reload()">
                 Men</Link>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">
-              <Link to="/girlsshop" style={{color:"black", textDecoration:"none"}} onClick="window.location.reload()">
+              <Link to="/girlsshop" style={{color:"black", textDecoration:"none"}} onClick="location.reload()">
                 Women</Link>
               </a>
             </li>
@@ -61,13 +61,13 @@ function Navbar() {
               </sup> 
             </li> */}
             <li class="nav-item">
-            <Link to="/register" style={{color:"white", textDecoration:"none"}} onClick="window.location.reload()">
+            <Link to="/register" style={{color:"white", textDecoration:"none"}} onClick="location.reload()">
               <button type="button" className="btn navbtn mr-2">
                 Register
               </button></Link>
             </li>
             <li class="nav-item">
-            <Link to="/signin" style={{color:"white", textDecoration:"none"}} onClick="window.location.reload()">
+            <Link to="/signin" style={{color:"white", textDecoration:"none"}} onClick="location.reload()">
               <button type="button" className="btn navbtn">
                 Sign in
               </button></Link>
