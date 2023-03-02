@@ -6,7 +6,7 @@ import DialpadTwoToneIcon from "@mui/icons-material/DialpadTwoTone";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light py-2 px-5">
+      <nav class="navbar navbar-expand-lg navbar-light px-5">
         <a class="navbar-brand">
           <Link to="/home" style={{ color: "black", textDecoration: "none" }}>
             <small>
