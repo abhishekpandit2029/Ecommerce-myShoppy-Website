@@ -1,37 +1,35 @@
-.GirlsPanel{
-    padding-top: 40px;
-    /* height: 530px; */
-    background: black; 
-    /* border: 2px solid yellow; */
-} 
-
-.GirlsnavSelection{
-    display: flex;
-    flex: row;
-    justify-content: center; 
+.GirlsPanel {
+  padding-top: 40px;
+  /* height: 530px; */
+  background: black;
+  /* border: 2px solid yellow; */
 }
 
-.Navigator{
-    margin-top: 10px;
+.GirlsnavSelection {
+  display: flex;
+  flex: row;
+  justify-content: center;
 }
 
+.Navigator {
+  margin-top: 10px;
+}
 
-.btn{
-    border: none;
-    font-size: large; 
-}  
-.btn:hover{
-    color: #fe8235; 
-    background: black;
-} 
+.btn {
+  border: none;
+  font-size: large;
+}
+.btn:hover {
+  color: #fe8235;
+  background: black;
+}
 
 @media screen and (max-width: 575px) {
-    .GirlsPanel{
-        padding-top: 40px;
-        height: 500px;
-    } 
-    .navHeading{
-        font-size: medium;
-    }
-  }     
-
+  .GirlsPanel {
+    padding-top: 40px;
+    height: 500px;
+  }
+  .navHeading {
+    font-size: medium;
+  }
+}

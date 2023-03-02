@@ -1,7 +1,7 @@
 import React from "react";
 import "./Boysfeed.css";
 import Cards from "../../Source/Cards";
-import {WesternForBoys} from "../API/Boysapi";
+import { WesternForBoys } from "../API/Boysapi";
 import HorizontalScroll from "react-scroll-horizontal";
 
 function BoysWesternfeed() {
@@ -18,4 +18,4 @@ function BoysWesternfeed() {
   );
 }
 
-export default BoysWesternfeed; 
+export default BoysWesternfeed;

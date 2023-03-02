@@ -62,15 +62,15 @@ function Navbar() {
                 </Link>
               </a>
             </li>
-            {/* <li class="nav-item basket">
+            <li class="nav-item basket">
               <img
                 class="card-details-img"
                 src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
               />
               <sup id="counting" class="counting">
                 0
-              </sup> 
-            </li> */}
+              </sup>
+            </li>
             <li class="nav-item">
               <Link
                 to="/register"

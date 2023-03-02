@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
-import FacebookIcon from '@mui/icons-material/Facebook';
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 function SignIn() {
   return (
@@ -22,7 +22,9 @@ function SignIn() {
             placeholder="Password"
             required
           />
-          <button className="signinbtn text-light"><b>Sign In</b></button>
+          <button className="signinbtn text-light">
+            <b>Sign In</b>
+          </button>
 
           <div className="firstLine">
             <div>
@@ -38,7 +40,7 @@ function SignIn() {
           </div>
 
           <div className="fcbk">
-            <FacebookIcon className="contact-info-icon"/>
+            <FacebookIcon className="contact-info-icon" />
             <p className="text-light">Login with Facebook</p>
           </div>
 
@@ -48,8 +50,13 @@ function SignIn() {
               <a
                 href="https://www.w3.org/Provider/Style/dummy.html"
                 className="text-light signupa"
-              ><Link to="/register" style={{color:"white", textDecoration:"none"}}>
-                Register here</Link>
+              >
+                <Link
+                  to="/register"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  Register here
+                </Link>
               </a>
             </Link>
           </div>

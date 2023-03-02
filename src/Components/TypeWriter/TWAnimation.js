@@ -9,7 +9,7 @@ const TWAnimation = () => {
         Be,{" "}
         <span className="eraseAnimation">
           <Typewriter
-            words={["Real","New","You"]}
+            words={["Real", "New", "You"]}
             cursor
             cursorStyle="_"
             typeSpeed={150}

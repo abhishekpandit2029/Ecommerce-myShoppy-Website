@@ -1,38 +1,37 @@
-.Girlsshoppy{
-    padding-top: 40px;
-    background: black; 
-} 
-
-.GirlsShoppySelection{
-    display: flex;
-    flex: row;
-    justify-content: center; 
+.Girlsshoppy {
+  padding-top: 40px;
+  background: black;
 }
 
-.gShoppy{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 0 0 40px;
+.GirlsShoppySelection {
+  display: flex;
+  flex: row;
+  justify-content: center;
 }
 
-.shoppyCards{
-    margin: 0px 8px 150px 0px;
+.gShoppy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0 0 40px;
 }
 
-.btn{
-    border: none;
-    font-size:large;
-}  
-.btn:hover{
-    color: #fe8235; 
-    background: black;
+.shoppyCards {
+  margin: 0px 8px 150px 0px;
 }
 
+.btn {
+  border: none;
+  font-size: large;
+}
+.btn:hover {
+  color: #fe8235;
+  background: black;
+}
 
 @media screen and (max-width: 575px) {
-    .navHeading{
-        font-size: medium;
-    }
-  }   
+  .navHeading {
+    font-size: medium;
+  }
+}

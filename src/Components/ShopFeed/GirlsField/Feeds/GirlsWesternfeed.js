@@ -18,4 +18,4 @@ function GirlsWesternfeed() {
   );
 }
 
-export default GirlsWesternfeed; 
+export default GirlsWesternfeed;

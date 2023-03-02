@@ -3,7 +3,7 @@ import BoysFestivefeed from "../Feeds/BoysFestivefeed";
 import BoysWesternfeed from "../Feeds/BoysWesternfeed";
 import "./BoysPanel.css";
 import { Link } from "react-router-dom";
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 
 function BoysPanel() {
   return (
@@ -15,7 +15,7 @@ function BoysPanel() {
             alignItems: "center",
             flexDirection: "row",
             marginLeft: "40px",
-            marginBottom: "30px"
+            marginBottom: "30px",
           }}
         >
           <hr
@@ -54,7 +54,7 @@ function BoysPanel() {
       <ul class="nav nav-pills BoysnavSelection">
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4 active"
+            class="nav-link btn btn-dark mx-md-4 mr-1 active"
             data-toggle="pill"
             href="#pills-Western"
           >
@@ -63,7 +63,7 @@ function BoysPanel() {
         </li>
         <li class="nav-item">
           <div
-            class="nav-link btn btn-dark mx-md-4"
+            class="nav-link btn btn-dark mx-md-4 mr-1"
             data-toggle="pill"
             href="#pills-Festive"
           >
@@ -71,9 +71,9 @@ function BoysPanel() {
           </div>
         </li>
         <li className="bNavigator">
-        <Link to="/boysshop" style={{color:"#fe8235"}}>
-        <ArrowCircleRightIcon fontSize="medium"/>
-        </Link>
+          <Link to="/boysshop" style={{ color: "#fe8235" }}>
+            <ArrowCircleRightIcon fontSize="medium" />
+          </Link>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
@@ -81,10 +81,9 @@ function BoysPanel() {
           {<BoysWesternfeed />}
         </div>
         <div class="text-white tab-pane" id="pills-Festive">
-          {<BoysFestivefeed />} 
+          {<BoysFestivefeed />}
         </div>
       </div>
-
     </div>
   );
 }

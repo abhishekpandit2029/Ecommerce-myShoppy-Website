@@ -1,26 +1,26 @@
-.BoysPanel{
-    /* margin-top: 20px; */
-    padding-top: 20px;
-    /* height: 550px; */
-    background: black;
-    /* border: 2px solid turquoise; */
-} 
+.BoysPanel {
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  /* height: 550px; */
+  background: black;
+  /* border: 2px solid turquoise; */
+}
 
-.BoysnavSelection{
-    display: flex; 
-    flex: row;
-    justify-content: center; 
-    margin-top: 70px;
+.BoysnavSelection {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 575px) {
-    .BoysPanel{
-        padding-top: 20px;
-    } 
-    .navHeading{
-      font-size: medium;
+  .BoysPanel {
+    padding-top: 20px;
   }
-  }  
+  .navHeading {
+    font-size: medium;
+  }
+}
 /* 
   @media screen and (min-width: 1400px) {
     .BoysPanel{
@@ -29,28 +29,28 @@
     } 
   }  */
 
-  @media screen and (max-width: 327px) {
-    .BoysPanel{
-        padding-top: 90px;
-    } 
-  }  
-
-  @media screen and (max-width: 326px) {
-    .BoysPanel{
-      padding-top: 10px;
-  } 
+@media screen and (max-width: 327px) {
+  .BoysPanel {
+    padding-top: 90px;
+  }
 }
 
-  .btn{
-    border: none;
-    font-size:large; 
-    background: black;
-}
-.btn:hover{
-    color: #fe8235;
-    background: black;
+@media screen and (max-width: 326px) {
+  .BoysPanel {
+    padding-top: 10px;
+  }
 }
 
-.bNavigator{
+.btn {
+  border: none;
+  font-size: large;
+  background: black;
+}
+.btn:hover {
+  color: #fe8235;
+  background: black;
+}
+
+.bNavigator {
   margin-top: 11px;
 }

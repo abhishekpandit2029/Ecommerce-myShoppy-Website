@@ -154,7 +154,7 @@ const FusionForGirls = [
     itemPrice: "1233",
   },
   {
-    id: 23,  
+    id: 23,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20220520/bIk9/62878221f997dd03e2fbe3f6/-473Wx593H-464361415-pink-MODEL.jpg",
     itemName: "Banarasi with Zari Border",
@@ -178,7 +178,7 @@ const EthnicForGirls = [
     itemPrice: "1499",
   },
   {
-    id: 2, 
+    id: 2,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230120/7UAk/63cab055aeb269c651ef5479/-473Wx593H-465635879-teal-MODEL5.jpg",
     itemName: "Floral Soft-Silk Saree",
@@ -192,7 +192,7 @@ const EthnicForGirls = [
     itemPrice: "999",
   },
   {
-    id: 4, 
+    id: 4,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230226/lVEu/63fa761caeb26924e3913710/-473Wx593H-465700813-red-MODEL.jpg",
     itemName: "Banarasi Saree ",
@@ -206,7 +206,7 @@ const EthnicForGirls = [
     itemPrice: "899",
   },
   {
-    id: 6, 
+    id: 6,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230207/T0N1/63e14888f997dd708e3cf8e6/-473Wx593H-465687642-maroon-MODEL.jpg",
     itemName: "Banarasi Silk Saree",
@@ -220,7 +220,7 @@ const EthnicForGirls = [
     itemPrice: "1500",
   },
   {
-    id: 8, 
+    id: 8,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230110/F9Du/63bd2770aeb269c651d2c30c/-473Wx593H-465583837-aqua-MODEL2.jpg",
     itemName: "Saree with Border",
@@ -234,7 +234,7 @@ const EthnicForGirls = [
     itemPrice: "1599",
   },
   {
-    id: 10, 
+    id: 10,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20211222/g4nZ/61c23d22aeb2690110167c4c/-473Wx593H-463532274-green-MODEL.jpg",
     itemName: "Saree For Bride",
@@ -248,7 +248,7 @@ const EthnicForGirls = [
     itemPrice: "1299",
   },
   {
-    id: 12,  
+    id: 12,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20220520/bIk9/62878221f997dd03e2fbe3f6/-473Wx593H-464361415-pink-MODEL.jpg",
     itemName: "Banarasi with Zari Border",
@@ -262,7 +262,7 @@ const EthnicForGirls = [
     itemPrice: "999",
   },
   {
-    id: 14, 
+    id: 14,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20221215/NPm0/639a386df997ddfdbdd4efd0/-473Wx593H-465438179-wine-MODEL2.jpg",
     itemName: "Saree with Border",
@@ -276,7 +276,7 @@ const EthnicForGirls = [
     itemPrice: "1469",
   },
   {
-    id: 16, 
+    id: 16,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20211222/bdRg/61c24212aeb269011016bdf5/-473Wx593H-463532271-yellow-MODEL.jpg",
     itemName: "Kanjeevaram Silk Saree",
@@ -290,7 +290,7 @@ const EthnicForGirls = [
     itemPrice: "1484",
   },
   {
-    id: 18, 
+    id: 18,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20221220/Gjw3/63a0e707aeb269659cf77059/-473Wx593H-465465386-olive-MODEL2.jpg",
     itemName: "Saree with Contrast",
@@ -304,14 +304,14 @@ const EthnicForGirls = [
     itemPrice: "1299",
   },
   {
-    id: 20, 
+    id: 20,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230119/XwGZ/63c88318aeb269c651eb2afe/-473Wx593H-465625844-wine-MODEL.jpg",
     itemName: "Silk Saree ",
     itemPrice: "1129",
   },
   {
-    id: 21, 
+    id: 21,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20230207/T0N1/63e14888f997dd708e3cf8e6/-473Wx593H-465687642-maroon-MODEL.jpg",
     itemName: "Banarasi Silk Saree",
@@ -338,7 +338,6 @@ const EthnicForGirls = [
     itemName: "Embellished A-line Kurta",
     itemPrice: "999",
   },
-
 ];
 
 const WesternForGirls = [
@@ -413,7 +412,7 @@ const WesternForGirls = [
     itemPrice: "1599",
   },
   {
-    id: 11, 
+    id: 11,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20211215/zzIL/61b90353f997ddf8f151336b/-473Wx593H-463499209-red-MODEL.jpg",
     itemName: "Floral Fit-Flare Dress",
@@ -512,6 +511,5 @@ const WesternForGirls = [
   },
 ];
 
-export default FusionForGirls
-export {WesternForGirls,EthnicForGirls}
-
+export default FusionForGirls;
+export { WesternForGirls, EthnicForGirls };

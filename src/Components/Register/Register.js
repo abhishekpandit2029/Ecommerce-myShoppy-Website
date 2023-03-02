@@ -1,7 +1,5 @@
 import React from "react";
 import "../SignIn/SignIn.css";
-import { Link } from "react-router-dom";
-import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Register() {
   return (
@@ -33,13 +31,16 @@ function Register() {
             type="password"
             placeholder="Password"
             required
-          /><input
+          />
+          <input
             className="signininput"
             type="Password"
             placeholder="Confirm Password"
             required
           />
-          <button className="signinbtn text-light"><b>Register</b></button>
+          <button className="signinbtn text-light">
+            <b>Register</b>
+          </button>
 
           <div className="firstLine">
             <div>

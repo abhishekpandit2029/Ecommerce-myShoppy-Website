@@ -7,7 +7,7 @@ import d from "../Stuff/CarouselImage/d.jpg";
 import e from "../Stuff/CarouselImage/e.jpg";
 
 function Carousel() {
-  return ( 
+  return (
     <div>
       <div
         id="carouselExampleControls"

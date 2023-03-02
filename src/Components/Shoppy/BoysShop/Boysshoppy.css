@@ -1,37 +1,37 @@
-.Boysshoppy{
-    padding-top: 40px;
-    background: black; 
-} 
-
-.BoysshoppySelection{
-    display: flex;
-    flex: row;
-    justify-content: center; 
+.Boysshoppy {
+  padding-top: 40px;
+  background: black;
 }
 
-.bShoppy{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 0 0 40px;
-}
- 
-.shoppyCards{
-    margin: 0px 8px 150px 0px;
+.BoysshoppySelection {
+  display: flex;
+  flex: row;
+  justify-content: center;
 }
 
-.btn{
-    border: none;
-    font-size:large;
-}  
-.btn:hover{
-    color: #fe8235; 
-    background: black;
+.bShoppy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0 0 40px;
+}
+
+.shoppyCards {
+  margin: 0px 8px 150px 0px;
+}
+
+.btn {
+  border: none;
+  font-size: large;
+}
+.btn:hover {
+  color: #fe8235;
+  background: black;
 }
 
 @media screen and (max-width: 575px) {
-    .navHeading{
-        font-size: medium;
-    }
-  }   
+  .navHeading {
+    font-size: medium;
+  }
+}

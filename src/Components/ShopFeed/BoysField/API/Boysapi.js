@@ -1,6 +1,6 @@
 const FestiveForBoys = [
   {
-    id: 1, 
+    id: 1,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20220629/RHH3/62bc63eeaeb26921af50fa3d/-473Wx593H-441146295-ltblue-MODEL.jpg",
     itemName: "Chikankari Kurta Set",
@@ -213,7 +213,7 @@ const FestiveForBoys = [
 
 const WesternForBoys = [
   {
-    id: 1, 
+    id: 1,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20220324/hmQq/623c6fdef997dd03e22cd5a7/-473Wx593H-463775643-blue-MODEL.jpg",
     itemName: "Checked Shirt",
@@ -317,7 +317,7 @@ const WesternForBoys = [
     itemName: "Micro Print Long Kurta",
     itemPrice: "1299",
   },
-    {
+  {
     id: 16,
     itemSrc:
       "https://assets.ajio.com/medias/sys_master/root/20221109/xg7d/636b8e9af997ddfdbd663e62/-473Wx593H-461119105-blue-MODEL2.jpg",
@@ -424,6 +424,5 @@ const WesternForBoys = [
   },
 ];
 
-export default FestiveForBoys
-export {WesternForBoys}
-
+export default FestiveForBoys;
+export { WesternForBoys };
