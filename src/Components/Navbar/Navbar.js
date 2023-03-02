@@ -17,7 +17,7 @@ function Navbar() {
         </a>
 
         <button
-          class="navbar-toggler "
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
