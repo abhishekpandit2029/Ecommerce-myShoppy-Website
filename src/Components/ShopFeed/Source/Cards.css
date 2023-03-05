@@ -1,16 +1,17 @@
 .card {
   width: 200px;
   height: 250px;
-  margin: 0px 25px 0px 0px;
-  font-family: arial;
+  /* border: 2px solid red; */
+  background-color: black;
+  margin: 0px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  /* border: 2px solid red; */
+  place-items: left; 
 } 
 
 .card img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .price {
@@ -44,9 +45,19 @@ h6 {
   background-color: #fe8235;
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 575px) {
   .card {
-    width: 165px;
-    height: 206px;
+    margin: 0px 10px 0px 10px;
+    width: 150px;
+    height: 187px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    margin: 0px 10px 0px 10px;
+    width: 130px;
+    height: 187px;
   }
 }

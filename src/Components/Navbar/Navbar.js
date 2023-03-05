@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import DialpadTwoToneIcon from "@mui/icons-material/DialpadTwoTone";
@@ -14,7 +14,7 @@ function Navbar() {
             </small>
             .<strong>Shoppy</strong>
           </Link>
-        </a>
+        </a> 
 
         <button
           class="navbar-toggler"
@@ -62,15 +62,20 @@ function Navbar() {
                 </Link>
               </a>
             </li>
-            {/* <li class="nav-item basket">
-              <img
-                class="card-details-img"
-                src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
-              />
-              <sup id="counting" class="counting">
-                0
-              </sup>
-            </li> */}
+            <li class="nav-item mr-3 basket">
+              <Link
+                to="/basket"
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                <img
+                  class="card-details-img"
+                  src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
+                />
+                {/* <sup id="counting" class="counting">
+                  0
+                </sup> */}
+              </Link>
+            </li>
             <li class="nav-item">
               <Link
                 to="/register"

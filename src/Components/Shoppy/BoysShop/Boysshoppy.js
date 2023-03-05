@@ -9,7 +9,7 @@ function Boysshoppy() {
     <div className="Boysshoppy">
       <ul class="nav nav-pills BoysshoppySelection">
         <li class="nav-item">
-          <div
+          <div 
             class="nav-link btn btn-dark mx-md-4 active"
             data-toggle="pill"
             href="#pills-home"
@@ -33,7 +33,7 @@ function Boysshoppy() {
             {WesternForBoys.map((e) => {
               const { id } = e;
               return (
-                <div className="shoppyCards">
+                <div className="BshoppyCards">
                   <Cards key={id} {...e} />
                 </div>
               );
@@ -46,7 +46,7 @@ function Boysshoppy() {
             {FestiveForBoys.map((e) => {
               const { id } = e;
               return (
-                <div className="shoppyCards">
+                <div className="BshoppyCards">
                   <Cards key={id} {...e} />
                 </div>
               );

@@ -43,7 +43,7 @@ function Girlsshoppy() {
             {FusionForGirls.map((e) => {
               const { id } = e;
               return (
-                <div className="shoppyCards">
+                <div className="GshoppyCards">
                   <Cards key={id} {...e} />
                 </div>
               );
@@ -56,7 +56,7 @@ function Girlsshoppy() {
             {EthnicForGirls.map((e) => {
               const { id } = e;
               return (
-                <div className="shoppyCards">
+                <div className="GshoppyCards">
                   <Cards key={id} {...e} />
                 </div>
               );
@@ -69,7 +69,7 @@ function Girlsshoppy() {
             {WesternForGirls.map((e) => {
               const { id } = e;
               return (
-                <div className="shoppyCards">
+                <div className="GshoppyCards">
                   <Cards key={id} {...e} />
                 </div>
               );

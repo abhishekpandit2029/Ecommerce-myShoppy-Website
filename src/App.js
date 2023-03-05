@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import SignIn from "./Components/SignIn/SignIn";
 import Register from "./Components/Register/Register";
+import SPMap from "./Components/SelectedProducts/SPMap";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/girlsshop" element={<Girlsshoppy />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/basket" element={<SPMap />} />
         </Routes>
         <Footer />
       </Router>
