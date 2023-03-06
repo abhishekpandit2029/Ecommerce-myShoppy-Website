@@ -6,13 +6,13 @@
   place-items: left;
   /* border: 2px solid red; */
 }
- 
+
 .scard img {
   width: 100%;
   border-radius: 5px;
 }
 
-.sprice { 
+.sprice {
   color: white;
   font-size: 15px;
   margin-bottom: 10px;
@@ -36,7 +36,7 @@ h6 {
 
 @media screen and (max-width: 575px) {
   .scard {
-    margin: 0px 10px 20px 10px;
+    margin: 0px 10px 10px 10px;
     width: 150px;
   }
   .sitemName {
@@ -47,15 +47,14 @@ h6 {
   }
 }
 
-
 @media screen and (max-width: 340px) {
   .scard {
     width: 130px;
   }
   .sitemName {
     font-size: 13px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
   .sprice {
     font-size: 11px;
