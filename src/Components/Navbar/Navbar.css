@@ -15,22 +15,15 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
-  .basket {
-    margin: 10px 0;
-  }
-  .navbar-toggler {
-    padding: 6px 3.5px;
-    padding-bottom: 3px;
-  }
+.nav-link{
+  font-size: 16px;
 }
 
-@media screen and (max-width: 575px) {
-  .navbar-brand {
-    font-size: x-large;
-    font-weight: 900;
-  }
+.navbar-toggler {
+  padding: 6px 3.5px;
+  padding-bottom: 3px;
 }
+
 
 .navbar-toggler {
   height: auto;
@@ -77,4 +70,35 @@
   color: black;
   background-color: white;
   transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link{
+    margin-bottom: -5px;
+  }
+  .basket {
+    margin: 10px -10px 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbtn {
+    font-size: 12px;
+  }
+  .nav-link{
+    font-size: 14px;
+  }
+  .navbar-brand {
+    font-size: x-large;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .navbtn {
+    font-size: 10px;
+  }
+  .nav-link{
+    font-size: 12px;
+  }
 }

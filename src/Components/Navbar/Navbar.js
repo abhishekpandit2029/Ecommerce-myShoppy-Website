@@ -31,7 +31,7 @@ function Navbar() {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-3">
+          <ul class="navbar-nav ml-auto mt-lg-3">
             <li class="nav-item active">
               <a class="nav-link" href="#">
                 <Link

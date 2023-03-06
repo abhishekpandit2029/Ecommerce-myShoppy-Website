@@ -26,6 +26,12 @@
   }
 }
 
+/* @media screen and (max-width: 575px) {
+  .footer-link, .contact-info {
+    display: none;
+  }
+} */
+
 .footer-heading {
   letter-spacing: 3px;
   font-weight: 700;
