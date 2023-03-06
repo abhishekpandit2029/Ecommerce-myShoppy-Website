@@ -47,7 +47,7 @@ const FusionForGirls = [
       "https://assets.ajio.com/medias/sys_master/root/20210826/v9st/6127ad627cdb8cb824080294/-473Wx593H-441093608-ecru-MODEL.jpg",
     itemName: "Flared Kurti",
     itemPrice: "1233",
-  },
+  }, 
   {
     id: 8,
     itemSrc:

@@ -27,7 +27,7 @@ function Cards(props) {
     <>
       <div className="card">
         <img src={props.itemSrc} alt="Denim Jeans"></img>
-        <h6>{props.itemName}</h6>
+        <p className="itemName">{props.itemName}</p>
         <p className="price">₹ {props.itemPrice}</p>
         <p>
           <button class="btn btn-secondary button" onClick={OnC}>
@@ -37,8 +37,8 @@ function Cards(props) {
             Buy Now
           </button> */}
         </p>
-      </div>
-    </>
+      </div> 
+    </> 
   );
 }
 

@@ -6,10 +6,11 @@
   /* border: 1px solid red; */
   font-family: "Maven Pro", sans-serif;
 }
-
+ 
 .container {
   margin-bottom: -20px;
   width: 100%;
+  /* border: 1px solid red; */
 }
 .fCol {
   /* border: 1px solid red; */

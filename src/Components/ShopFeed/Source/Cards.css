@@ -1,6 +1,6 @@
 .card {
   width: 200px;
-  height: 250px;
+  /* height: 250px; */
   /* border: 2px solid red; */
   background-color: black;
   margin: 0px 20px 20px 20px;
@@ -21,8 +21,11 @@
   font-family: "Maven Pro", sans-serif;
 }
 
-h6 {
-  margin-top: 15px;
+.itemName {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
   color: white;
   font-family: "Maven Pro", sans-serif;
 }
@@ -52,12 +55,33 @@ h6 {
     width: 150px;
     height: 187px;
   }
+  .itemName {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 13px;
+  }
+  .card .button {
+    font-size: 12px;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .card {
     margin: 0px 10px 0px 10px;
     width: 130px;
     height: 187px;
+  }
+  .itemName {
+    font-size: 13px; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .price {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  .card .button {
+    font-size: 10px;
   }
 }

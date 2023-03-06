@@ -6,7 +6,7 @@ function SelectedProduct(props) {
     <>
       <div className="scard">
         <img src={props.itemSrc} alt="Denim Jeans"></img>
-        <h6>{props.itemName}</h6>
+        <p className="sitemName">{props.itemName}</p>
         <p className="sprice">₹ {props.itemPrice}</p>
       </div>
     </> 

@@ -19,10 +19,6 @@
   /* border: 2px solid red; */
 }
 
-.BshoppyCards {
-  margin: 0px 0px 150px 0px;
-}
-
 .btn { 
   border: none;
   font-size: large;
@@ -36,5 +32,14 @@
 @media screen and (max-width: 575px) {
   .navHeading {
     font-size: medium;
+  }
+  .BshoppyCards {
+    margin: 0px 0px 150px 0px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .BshoppyCards {
+    margin: 0px 0px 90px 0px;
   }
 }

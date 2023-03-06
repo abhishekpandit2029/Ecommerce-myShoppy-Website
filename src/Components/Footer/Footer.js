@@ -7,7 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function Footer() {
-  return (
+  return ( 
     <div>
       <footer class="section bg-footer">
         <div class="container">

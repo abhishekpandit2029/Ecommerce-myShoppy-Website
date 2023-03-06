@@ -19,6 +19,15 @@
   font-family: "Maven Pro", sans-serif;
 }
 
+.sitemName {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+}
+
 h6 {
   margin-top: 15px;
   color: white;
@@ -30,12 +39,25 @@ h6 {
     margin: 0px 10px 20px 10px;
     width: 150px;
   }
+  .sitemName {
+    font-size: 15px;
+  }
+  .sprice {
+    font-size: 13px;
+  }
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .scard {
-    margin: 0px 10px 10px 10px;
     width: 130px;
+  }
+  .sitemName {
+    font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  }
+  .sprice {
+    font-size: 11px;
   }
 }

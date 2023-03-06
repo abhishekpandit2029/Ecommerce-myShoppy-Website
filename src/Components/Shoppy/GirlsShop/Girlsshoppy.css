@@ -20,10 +20,6 @@
   /* border: 2px solid red; */
 }
 
-.GshoppyCards {
-  margin: 0px 0px 150px 0px;
-}
-
 .btn {
   border: none;
   font-size: large;
@@ -36,5 +32,14 @@
 @media screen and (max-width: 575px) {
   .navHeading {
     font-size: medium;
+  }
+  .GshoppyCards {
+    margin: 0px 0px 150px 0px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .GshoppyCards {
+    margin: 0px 0px 90px 0px;
   }
 }
