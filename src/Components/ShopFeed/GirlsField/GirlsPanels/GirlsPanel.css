@@ -1,10 +1,10 @@
 .GirlsPanel {
   padding-top: 40px;
-  /* height: 530px; */
+  height: auto;
   background: black;
   /* border: 2px solid yellow; */
 }
-
+ 
 .GirlsnavSelection {
   display: flex;
   flex: row;
@@ -14,7 +14,7 @@
 .Navigator {
   margin-top: 10px;
 }
-
+ 
 .btn {
   border: none;
   font-size: large;
@@ -27,7 +27,6 @@
 @media screen and (max-width: 575px) {
   .GirlsPanel {
     padding-top: 40px;
-    height: 500px;
   }
   .navHeading {
     font-size: medium;

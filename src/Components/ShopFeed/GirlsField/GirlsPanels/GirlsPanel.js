@@ -61,6 +61,7 @@ function GirlsPanel() {
             alignItems: "center",
             flexDirection: "row",
             marginLeft: "40px",
+            marginBottom: "-10px"
           }}
         >
           <hr

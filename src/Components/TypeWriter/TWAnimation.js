@@ -11,10 +11,10 @@ const TWAnimation = () => {
           <Typewriter
             words={["Real", "New", "You"]}
             cursor
-            cursorStyle="_"
+            cursorStyle="|"
             typeSpeed={150}
             deleteSpeed={150}
-            delaySpeed={1000}
+            delaySpeed={2000}
             loop={false}
           />
         </span>
@@ -25,10 +25,10 @@ const TWAnimation = () => {
           <Typewriter
             words={["Pretty", "Sharp"]}
             cursor
-            cursorStyle="_"
+            cursorStyle="|"
             typeSpeed={150}
             deleteSpeed={150}
-            delaySpeed={1000}
+            delaySpeed={2000}
             loop={false}
           />
         </span>
@@ -39,10 +39,10 @@ const TWAnimation = () => {
           <Typewriter
             words={["Well", "Smart"]}
             cursor
-            cursorStyle="_"
+            cursorStyle="|"
             typeSpeed={150}
             deleteSpeed={150}
-            delaySpeed={1000}
+            delaySpeed={2000}
             loop={false}
           />
         </span>

@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
 
+.TWAnimation{
+  /* border: 2px solid green; */
+}
+
 .Animation {
   color: white;
   padding: 0px 0 0 45px;
-  margin: auto 0;
   font-weight: normal;
   font-size: 90px;
   font-family: "Maven Pro", sans-serif;
@@ -32,19 +35,5 @@
     font-size: 30px;
     padding: 0px 0 0 40px;
   }
-  .TWAnimation {
-    margin-top: 100px;
-  }
-}
 
-@media screen and (max-width: 400px) {
-  .TWAnimation {
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 326px) {
-  .TWAnimation {
-    margin-top: 90px;
-  }
 }

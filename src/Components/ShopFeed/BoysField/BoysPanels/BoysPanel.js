@@ -15,7 +15,7 @@ function BoysPanel() {
             alignItems: "center",
             flexDirection: "row",
             marginLeft: "40px",
-            marginBottom: "30px",
+            marginTop: "-15px"
           }}
         >
           <hr

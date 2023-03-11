@@ -14,7 +14,7 @@ function Footer() {
           <div class="row">
             <div class="col-lg-2 col-md-4 col-sm-6 fCol">
               <h6 class="footer-heading text-uppercase text-white">About</h6>
-              <ul class="list-unstyled footer-link mt-4">
+              <ul class="list-unstyled footer-link mt-4 mr-5">
                 <li>
                   <a href="">Contact Us</a>
                 </li>
@@ -32,7 +32,7 @@ function Footer() {
 
             <div class="col-lg-2 col-md-4 col-sm-6 fCol">
               <h6 class="footer-heading text-uppercase text-white">Shop by</h6>
-              <ul class="list-unstyled footer-link mt-4">
+              <ul class="list-unstyled footer-link mt-4 ml-2 mr-5">
                 <li>
                   <a href="">Men</a>
                 </li>
@@ -50,7 +50,7 @@ function Footer() {
 
             <div class="col-lg-2 col-md-4 col-sm-6 fCol">
               <h6 class="footer-heading text-uppercase text-white">Policy</h6>
-              <ul class="list-unstyled footer-link mt-4">
+              <ul class="list-unstyled footer-link mt-4 mr-5 ml-3">
                 <li>
                   <a href="">Return Policy</a>
                 </li>
@@ -68,7 +68,7 @@ function Footer() {
 
             <div class="col-lg-2 col-md-4 col-sm-6 fCol">
               <h6 class="footer-heading text-uppercase text-white">Help</h6>
-              <ul class="list-unstyled footer-link mt-4">
+              <ul class="list-unstyled footer-link mt-4 mr-3 ml-1">
                 <li>
                   <a href="">Payment</a>
                 </li>
@@ -91,7 +91,7 @@ function Footer() {
                 <br /> help withanything
               </p>
               <p class="contact-info">+01 123-456-7890</p>
-              <p>
+              <p className="smicon">
                 <FacebookIcon className="contact-info-icon" />
                 <TwitterIcon className="contact-info-icon" />
                 <InstagramIcon className="contact-info-icon" />

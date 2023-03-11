@@ -5,7 +5,6 @@ import SelectedProduct from "./SelectedProduct"
 
 
 function SPMap() {
-  const child = { width: `100%`, height: `90%`};
   return ( 
     <div className="SPMap">
         {SelectedProductsAPI.map((e) => {
@@ -14,6 +13,6 @@ function SPMap() {
         })}
     </div>
   ); 
-}
+} 
 
 export default SPMap;

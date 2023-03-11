@@ -20,8 +20,14 @@ function Cards(props) {
     SelectedProductsAPI.push(myObject);
     console.log(SelectedProductsAPI);
     const len = SelectedProductsAPI.length;
-    console.log(len);
+    // console.log(len);
   };
+
+  function removeDuplicates(arr) {
+    return arr.filter((item, index) => arr.indexOf(item) === index);
+  }
+
+  removeDuplicates(SelectedProductsAPI);
 
   return (
     <>
@@ -37,8 +43,8 @@ function Cards(props) {
             Buy Now
           </button> */}
         </p>
-      </div> 
-    </> 
+      </div>
+    </>
   );
 }
 

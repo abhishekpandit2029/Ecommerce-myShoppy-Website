@@ -12,51 +12,73 @@
   border-radius: 5px;
 }
 
-.sprice {
-  color: white;
-  font-size: 15px;
-  margin-bottom: 10px;
-  font-family: "Maven Pro", sans-serif;
-}
-
 .sitemName {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: white;
   font-family: "Maven Pro", sans-serif;
 }
 
-h6 {
-  margin-top: 15px;
+.sprice {
   color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
   font-family: "Maven Pro", sans-serif;
+}
+
+.scard .button {
+  border: none;
+  outline: 0;
+  padding: 5px 10px;
+  font-weight: 500;
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.scard .button:hover {
+  color: white;
+  background-color: #fe8235;
 }
 
 @media screen and (max-width: 575px) {
   .scard {
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
     width: 150px;
   }
   .sitemName {
-    font-size: 15px;
+    font-size: 14px;
   }
   .sprice {
-    font-size: 13px;
+    font-size: 12px;
+  }
+  .scard .button {
+    font-size: 11px;
   }
 }
 
 @media screen and (max-width: 340px) {
   .scard {
+    margin: 0px 10px 0px 10px;
     width: 130px;
   }
   .sitemName {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 5px;
   }
   .sprice {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  .scard .button {
+    font-size: 9px;
   }
 }
+
+
+
