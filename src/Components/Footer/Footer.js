@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import CopyrightIcon from "@mui/icons-material/Copyright";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -114,7 +113,7 @@ function Footer() {
 
         <div class="text-center mt-5">
           <p class="footer-alt mb-3 f-14">
-            Copyright <CopyrightIcon className="copyright" /> 2023, Abhishek
+            Copyright &#169; 2023, Abhishek
             Pandit, All Rights Reserved
           </p>
         </div>
